@@ -1,7 +1,7 @@
 // this is the first step of the pong program
 var animate = window.requestAnimationFrame ||
-  window.webkitRequestAnimationFrame ||
-  window.mozRequestAnimationFrame ||
+              window.webkitRequestAnimationFrame ||
+              window.mozRequestAnimationFrame ||
   function(callback) { window.setTimeout(callback, 1000/60) };
   
 // define some variables
