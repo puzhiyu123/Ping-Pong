@@ -193,11 +193,13 @@ Paddle.prototype.move = function(x, y) {
   }
 }
 
+// updated players
 var update = function() {
   player.update();
   computer.update(ball);
   ball.update(player.paddle, computer.paddle);
 };
+
 
 Computer.prototype.update = function(ball) {
   var x_pos = ball.x;
